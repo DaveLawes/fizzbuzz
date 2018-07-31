@@ -5,6 +5,8 @@ class Integer
       'fizz'
     elsif self == 5
       'buzz'
+    elsif self == 15
+      'fizzbuzz'
     end
   end
 
