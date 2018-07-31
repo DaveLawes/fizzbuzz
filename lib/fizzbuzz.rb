@@ -1,7 +1,11 @@
 class Integer
 
   def fizzbuzz
-    'fizz'
+    if self == 3
+      'fizz'
+    elsif self == 5
+      'buzz'
+    end
   end
 
 end
