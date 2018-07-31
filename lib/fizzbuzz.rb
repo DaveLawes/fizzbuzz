@@ -1,7 +1,9 @@
 class Integer
 
   def fizzbuzz
-    if self % 15 == 0
+    if self == 0
+      0
+    elsif self % 15 == 0
       'fizzbuzz'
     elsif self % 3 == 0
       'fizz'
